@@ -63,21 +63,15 @@
                     <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
                 </div>
                 <div class="col-md-3">
-                    <div class="list-group">
-                        <ul class="list-group">
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                              A list item
-                              <span class="badge text-bg-primary rounded-pill">14</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                              A second list item
-                              <span class="badge text-bg-primary rounded-pill">2</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                              A third list item
-                              <span class="badge text-bg-primary rounded-pill">1</span>
-                            </li>
-                          </ul>
+                    <div class="card">
+                        <div class="car-header">
+                               Kategoriler
+                        </div>
+                        <div class="list-group">
+                        <li class="list-group-item"><a href="#">günlük hayat  <span class="badge bg-primary float-right">14</span></a></li>
+                        <li class="list-group-item"><a href="#">günlük hayat  <span class="badge bg-primary float-right">14</span></a></li>
+                        <li class="list-group-item"><a href="#">günlük hayat  <span class="badge bg-primary float-right">14</span></a></li></div>
                       </div>
-                </div>
+                    </div>
+
 @endsection
